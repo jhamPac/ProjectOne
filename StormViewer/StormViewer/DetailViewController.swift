@@ -22,6 +22,7 @@ class DetailViewController: UIViewController
     
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
+        self.title = detailItem ?? "Blah"
         navigationController?.hidesBarsOnTap = true
     }
     
